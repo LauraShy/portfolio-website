@@ -131,6 +131,24 @@ th {
     color: #fff;
 }
 
+table {
+    border-collapse: collapse;
+    width: 25%;
+    vertical-align: bottom;
+}
+
+tr:nth-child(odd) {background-color: #f2f2f2dc;}
+
+th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
 .grid__item {
     display: inline-block;
     width: 33%;
