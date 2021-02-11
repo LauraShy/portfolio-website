@@ -110,6 +110,7 @@ th {
 
 .page-header__item {
     flex: 0 1 200px;
+    min-width: 0;
 }
 
 .page-header__item:first-child {

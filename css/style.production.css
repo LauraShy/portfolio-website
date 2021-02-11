@@ -136,6 +136,7 @@ th {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 200px;
             flex: 0 1 200px;
+    min-width: 0;
 }
 
 .page-header__item:first-child {
