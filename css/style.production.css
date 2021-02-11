@@ -139,7 +139,9 @@ th {
 }
 
 .page-header__item:first-child {
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     max-width: 200px;
 } 
 

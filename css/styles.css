@@ -113,6 +113,7 @@ th {
 }
 
 .page-header__item:first-child {
+    align-self: center;
     max-width: 200px;
 } 
 
