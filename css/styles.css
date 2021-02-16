@@ -135,6 +135,10 @@ th {
     color: #fff;
 }
 
+#svg8 {
+    max-width: 100%
+}
+
 table {
     border-collapse: collapse;
     width: 25%;
