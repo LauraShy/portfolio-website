@@ -318,3 +318,119 @@ svg#svg8 {
 .portfolio-grid h3 {
   font-weight: lighter;
 }
+
+@media (max-width: 1475px) {
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* INTERESTS */
+.title-div-2 {
+  text-align: left;
+  background-color: #5B797E;
+  color: black;
+}
+
+.interests-section {
+  background-color: #5B797E;
+  padding-bottom: 15px;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+img.interest-img {
+  height: 250px;
+}
+
+.drive-videos {
+  display: flex;
+  height: 250px;
+  width: 430px;
+}
+
+.vid-1 {
+  grid-area: vid-1;
+}
+
+.vid-2 {
+  grid-area: vid-2;
+}
+
+.vid-3 {
+  grid-area: vid-3;
+}
+
+.vid-4 {
+  grid-area: vid-4;
+}
+
+.pic-1 {
+  grid-area: pic-1;
+}
+
+.pic-2 {
+  grid-area: pic-2;
+}
+
+@media (max-width: 1475px) {
+  .interests-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    grid-template-areas:
+    "vid-1  vid-2"
+    "pic-1  pic-2"
+    "vid-3  vid-4"
+  }
+
+  .drive-videos {
+    display: flex;
+    height: 220px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .drive-videos {
+    display: flex;
+    height: 220px;
+    width: 333px;
+  }
+  .interests-grid {
+    gap: 20px;
+  }
+  .vid-1, .pic-1, .vid-3 {
+    margin-right: 15px;
+  }
+  .vid-2, .pic-2, .vid-4 {
+    margin-left: 15px
+  }
+}
+
+/* FOOTER */
+.footer-section {
+  background-color: black;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer a {
+  display: inline;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
