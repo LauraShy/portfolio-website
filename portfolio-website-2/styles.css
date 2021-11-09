@@ -344,6 +344,9 @@ svg#svg8 {
   text-align: center;
   justify-content: center;
   gap: 8px;
+  grid-template-areas:
+  "vid-1  pic-1   vid-2"
+  "vid-3  pic-2   vid-4";
 }
 
 img.interest-img {
