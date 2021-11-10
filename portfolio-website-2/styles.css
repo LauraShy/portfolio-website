@@ -40,6 +40,7 @@ p, button {
   width: 100%;
   overflow: hidden;
   align-items: center;
+  padding-top: 10px;
 }
 
 @-ms-viewport{
@@ -145,10 +146,13 @@ img.nav-icon {
 
 .landing-1 {
   text-align: center;
+  margin: 0;
 }
 
 .landing-2 {
-  margin-top: 15px;
+  margin: auto;
+  padding-bottom: 20px;
+  justify-content: center;
 }
 
 .landing-content {
@@ -190,7 +194,7 @@ a.l-links {
   grid-template-columns: 1fr 2fr;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   .about-grid {
     display: flex;
     flex-direction: column;
@@ -203,16 +207,12 @@ a.l-links {
 
 .about-1 {
   text-align: center;
-  margin: 10px;
-}
-
-.about-1 h1 {
-  padding-top: 30px;
+  margin: auto;
 }
 
 .about-1 p {
   padding: 10px;
-  margin-left: 20px;
+  margin: 20px;
 }
 
 .about-2 {
@@ -294,6 +294,12 @@ svg#svg8 {
   padding-bottom: 30px;
 }
 
+.portfolio-grid p {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: medium;
+}
+
 .portfolio-buttons {
   margin-bottom: 20px;
 }
@@ -344,6 +350,7 @@ svg#svg8 {
   text-align: center;
   justify-content: center;
   gap: 8px;
+  padding-bottom: 10px;
   grid-template-areas:
   "vid-1  pic-1   vid-2"
   "vid-3  pic-2   vid-4";
