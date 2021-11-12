@@ -422,6 +422,8 @@ img.interest-img {
   display: flex;
   height: 250px;
   width: 430px;
+  margin: auto;
+  justify-content: center;
 }
 
 .vid-1 {
@@ -448,7 +450,7 @@ img.interest-img {
   grid-area: pic-2;
 }
 
-@media (max-width: 1475px) {
+@media (max-width: 1500px) {
   .interests-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -463,6 +465,8 @@ img.interest-img {
     display: flex;
     height: 220px;
     width: 400px;
+    margin: auto;
+    justify-content: center;
   }
 }
 
@@ -471,15 +475,11 @@ img.interest-img {
     display: flex;
     height: 220px;
     width: 333px;
+    margin: auto;
+    justify-content: center;
   }
   .interests-grid {
     gap: 20px;
-  }
-  .vid-1, .pic-1, .vid-3 {
-    margin-right: 15px;
-  }
-  .vid-2, .pic-2, .vid-4 {
-    margin-left: 15px
   }
 }
 
@@ -487,7 +487,7 @@ img.interest-img {
   .interests-grid {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 0 !important;
+    margin: auto;
     text-align: center;
     grid-template-areas: 
     "vid-1"
