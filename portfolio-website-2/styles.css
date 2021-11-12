@@ -15,7 +15,6 @@ html, body {
 }
 
 body {
-  margin: auto;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -142,6 +141,9 @@ label {
   #toggle:checked + ul.header-1 {
     display: block;
   }
+  .header-2 a {
+    padding-right: 5px;
+  }
 }
 
 img.logo-2 {
@@ -236,9 +238,14 @@ a.l-links {
     display: flex;
     flex-direction: column;
     grid-template-rows: 1fr 1fr;
+    width: 100%;
   }
   .about-1 p {
     margin-left: auto;
+  }
+  svg#svg8 {
+    height: auto;
+    width: 100%;
   }
 }
 
@@ -258,7 +265,7 @@ a.l-links {
 
 svg#svg8 {
   max-height: 650px;
-  width: auto;
+  width: 100%;
   margin: auto;
   padding: 0;
   margin-top: 0px;
@@ -376,6 +383,13 @@ svg#svg8 {
   }
 }
 
+@media (max-width: 950px) {
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 /* INTERESTS */
 .title-div-2 {
   text-align: left;
@@ -466,6 +480,22 @@ img.interest-img {
   }
   .vid-2, .pic-2, .vid-4 {
     margin-left: 15px
+  }
+}
+
+@media (max-width: 950px) {
+  .interests-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 !important;
+    text-align: center;
+    grid-template-areas: 
+    "vid-1"
+    "pic-1"
+    "vid-2"
+    "vid-3"
+    "pic-2"
+    "vid-4"
   }
 }
 
