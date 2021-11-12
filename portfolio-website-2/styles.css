@@ -146,6 +146,14 @@ label {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  img.nav-icon {
+    padding: 0;
+    width: auto;
+    height: 25px !important;
+  }
+}
+
 img.logo-2 {
   height: 90px;
   padding-right: 20px;
