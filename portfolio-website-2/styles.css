@@ -144,6 +144,9 @@ label {
   .header-2 a {
     padding-right: 5px;
   }
+  img.logo-2 {
+    padding: 0 10px 0 10px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -151,6 +154,9 @@ label {
     padding: 0;
     width: auto;
     height: 25px !important;
+  }
+  img.logo-2 {
+    padding: 0 10px 0 0 !important;
   }
 }
 
