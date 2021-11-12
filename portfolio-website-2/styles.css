@@ -4,9 +4,8 @@
 }
 
 :root {
-  --primary-color: #5B797E;
-  --secondary-color: #7E5B79;
-  --third-color: #797E5B;
+  --primary-color: #A3CDD4;
+  --secondary-color: #5B797E;
 }
 
 body {
@@ -229,10 +228,16 @@ svg#svg8 {
 
 /* SKILLS CSS */
 .skills {
-  background-color: black;
-  color: white;
+  background-color: #A3CDD4;
+  color: black;
   padding-bottom: 30px;
   font-weight: 300;
+}
+
+.title-div.skills-title {
+  text-align: center;
+  background-color: #A3CDD4;
+  color: black;
 }
 
 .skills-container {
@@ -244,7 +249,7 @@ svg#svg8 {
 
 .skills h3 {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: 300;
 }
 
@@ -257,30 +262,31 @@ svg#svg8 {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  color: white;
+  color: black;
+  font-weight: 500;
 }
 
-.html {width: 90%; background-color: var(--primary-color);}
-.css {width: 80%; background-color: var(--primary-color);}
-.js {width: 70%; background-color: var(--primary-color);}
-.jquery {width: 60%; background-color: var(--primary-color);}
-.react {width: 65%; background-color: var(--primary-color);}
-.node {width: 70%; background-color: var(--primary-color);}
-.github {width: 75%; background-color: var(--primary-color);}
-.redux {width: 50%; background-color: var(--primary-color);}
-.mongo {width: 50%; background-color: var(--primary-color);}
-.aws {width: 30%; background-color: var(--primary-color);}
+.html {width: 90%; background-color: var(--secondary-color);}
+.css {width: 80%; background-color: var(--secondary-color);}
+.js {width: 70%; background-color: var(--secondary-color);}
+.jquery {width: 60%; background-color: var(--secondary-color);}
+.react {width: 65%; background-color: var(--secondary-color);}
+.node {width: 70%; background-color: var(--secondary-color);}
+.github {width: 75%; background-color: var(--secondary-color);}
+.redux {width: 50%; background-color: var(--secondary-color);}
+.mongo {width: 50%; background-color: var(--secondary-color);}
+.aws {width: 30%; background-color: var(--secondary-color);}
 
 /* PORTFOLIO CSS */
-.title-div {
+.title-div.portfolio-title {
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .portfolio {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color:black;
 }
 
 .portfolio-gif {
@@ -308,17 +314,17 @@ svg#svg8 {
   padding: 10px;
   margin: 10px;
   text-decoration: none;
-  background-color: #5B797E;
+  background-color: #A3CDD4;
 }
 
 .portfolio-buttons button:hover {
-  background-color: #797E5B;
+  background-color: #5B797E;
 }
 
 .portfolio-buttons a {
   text-decoration: none;
-  color: white;
   font-weight: 600;
+  color: black;
 }
 
 .portfolio-grid h3 {
@@ -335,12 +341,12 @@ svg#svg8 {
 /* INTERESTS */
 .title-div-2 {
   text-align: left;
-  background-color: #5B797E;
+  background-color: #A3CDD4;
   color: black;
 }
 
 .interests-section {
-  background-color: #5B797E;
+  background-color: #A3CDD4;
   padding-bottom: 15px;
 }
 
