@@ -117,6 +117,7 @@ label {
   margin: 20px 0 0 0;
   display: none;
   font-size: 25px;
+  color: var(--primary-color);
 }
 
 #toggle {
@@ -127,7 +128,6 @@ label {
   label {
     display: block;
     cursor: pointer;
-    color: var(--primary-color);
     margin-bottom: 20px; 
   }
   ul.header-1 {
