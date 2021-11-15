@@ -157,6 +157,25 @@ label {
     padding: 0 10px 0 0 !important;
     height: 80px !important;
   }
+  label {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 20px; 
+  }
+  ul.header-1 {
+    text-align: center;
+    width: 100%;
+    display: none; 
+  }
+  ul.header-1 a {
+    display: block;
+  }
+  #toggle:checked + ul.header-1 {
+    display: block;
+  }
+  .header-2 a {
+    padding-right: 5px;
+  }
 }
 
 img.logo-2 {
