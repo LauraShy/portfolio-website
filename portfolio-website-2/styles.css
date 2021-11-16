@@ -423,12 +423,13 @@ a.l-links {
   width: 100%;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1250px) {
   .interests-intro-grid {
     display: flex;
     flex-direction: column;
     grid-template-rows: 1fr 1fr;
     text-align: center;
+    width: 100%;
   }
   svg#svg8 {
     width: 100%;
