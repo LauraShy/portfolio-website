@@ -408,10 +408,8 @@ a.l-links {
 }
 
 /* INTERESTS */
-.div-title.inter {
-  background-color: white;
-  color: black;
-  padding-top: 20px !important;
+.interest-title {
+  padding-bottom: 20px;
 }
 
 .interests-section {
@@ -419,14 +417,9 @@ a.l-links {
   padding-top: 0px !important;
 }
 
-.svg-div { grid-area: "svg-div"; }
-.more-about { grid-area: "more-about"; }
-
 .interests-intro-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-  "svg-div  more-about"
 }
 
 @media (max-width: 950px) {
@@ -435,7 +428,6 @@ a.l-links {
     flex-direction: column;
     grid-template-rows: 1fr 1fr;
     text-align: center;
-    grid-template-areas: "svg-div" "more-about";
   }
   svg#svg8 {
     width: 100%;
@@ -499,6 +491,14 @@ img.interest-img {
 .vid-4 { grid-area: vid-4; }
 .pic-1 { grid-area: pic-1; }
 .pic-2 { grid-area: pic-2; }
+
+.more-about {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px 30px 20px 30px;
+  margin: auto;
+}
 
 @media (max-width: 1500px) {
   .interests-grid {
