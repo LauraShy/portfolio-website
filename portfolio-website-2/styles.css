@@ -246,19 +246,6 @@ a.l-links {
 }
 
 /* ABOUT CSS */
-@keyframes airplane-move {
-  from {
-      transform: translate(0, 0);
-  }
-  to {
-      transform: translate(100px, -50px);
-  }
-}
-
-#image4210 {
-  animation: 10s airplane-move infinite normal linear;
-}
-
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -450,6 +437,15 @@ a.l-links {
     text-align: center;
     grid-template-areas: "svg-div" "more-about";
   }
+  svg#svg8 {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .div-title.inter {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
 }
 
 svg#svg8 {
@@ -458,6 +454,19 @@ svg#svg8 {
   margin: auto;
   padding: 0 0 10px 0;
   margin-top: 0px;
+}
+
+@keyframes airplane-move {
+  from {
+      transform: translate(0, 0);
+  }
+  to {
+      transform: translate(100px, -50px);
+  }
+}
+
+#image4210 {
+  animation: 10s airplane-move infinite normal linear;
 }
 
 .interests-grid {
