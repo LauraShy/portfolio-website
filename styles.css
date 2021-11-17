@@ -390,7 +390,8 @@ a.l-links {
     width: 100%;
   }
   svg#svg8 {
-    width: 100%;
+    width: 100% !important;
+    max-width: 650px;
     height: auto;
     padding: 0;
   }
