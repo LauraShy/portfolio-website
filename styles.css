@@ -512,6 +512,10 @@ img.interest-img {
   }
 }
 
+.interests-item p {
+  margin-top: 5px;
+}
+
 /* FOOTER */
 .footer-section {
   background-color: black;
