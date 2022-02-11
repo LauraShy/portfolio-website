@@ -358,16 +358,16 @@ a.l-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .portfolio-gif {
-    max-height: 200px;
-    max-width: 350px;
-  }
 }
 
 @media (max-width: 950px) {
   .portfolio-grid {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .portfolio-gif {
+    max-height: 200px;
+    max-width: 350px;
   }
 }
 
